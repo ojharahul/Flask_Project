@@ -1,0 +1,32 @@
+2022-12-02 14:29:39,390 -- $(levelname)s -- MyMongo -- Creating database : Rahul
+2022-12-02 14:29:39,391 -- $(levelname)s -- MyMongo -- Creating collection : ineuron
+2022-12-02 14:29:39,391 -- $(levelname)s -- MyMongo -- Connection created with mongo db atlas
+2022-12-02 14:29:39,391 -- $(levelname)s -- MyMongo -- selecting all the document form the collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'Rahul'), 'ineuron') 
+2022-12-03 15:23:28,533 -- $(levelname)s -- MyMongo -- Creating database : Rahul
+2022-12-03 15:23:28,533 -- $(levelname)s -- MyMongo -- Creating collection : ineuron
+2022-12-03 15:23:28,534 -- $(levelname)s -- MyMongo -- Connection created with mongo db atlas
+2022-12-03 15:23:28,534 -- $(levelname)s -- MyMongo -- selecting all the document form the collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', tls=True), 'Rahul'), 'ineuron') 
+2023-01-19 13:56:50,567 -- $(levelname)s -- MyMongo -- The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\rahul.ojha\Anaconda3\envs\test\python.exe -m pip install "pymongo[srv]"
+Traceback (most recent call last):
+  File "C:\Users\rahul.ojha\Flask_Task\mongo_operation.py", line 13, in __init__
+    self.client = pymongo.MongoClient("mongodb+srv://mongodb:mongodb@cluster0.10qztuf.mongodb.net/?retryWrites=true&w=majority")
+  File "C:\Users\rahul.ojha\Anaconda3\envs\test\lib\site-packages\pymongo\mongo_client.py", line 672, in __init__
+    connect_timeout=timeout)
+  File "C:\Users\rahul.ojha\Anaconda3\envs\test\lib\site-packages\pymongo\uri_parser.py", line 453, in parse_uri
+    '%s -m pip install "pymongo[srv]"' % (python_path))
+pymongo.errors.ConfigurationError: The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\rahul.ojha\Anaconda3\envs\test\python.exe -m pip install "pymongo[srv]"
+2023-01-19 13:56:50,626 -- $(levelname)s -- MyMongo -- 'MyMongo' object has no attribute 'coll'
+Traceback (most recent call last):
+  File "C:\Users\rahul.ojha\Flask_Task\mongo_operation.py", line 63, in select_all_docs
+    self.log.info(f"selecting all the document form the collection: {self.coll} ")
+AttributeError: 'MyMongo' object has no attribute 'coll'
+2023-01-19 13:58:44,280 -- $(levelname)s -- MyMongo -- Creating database : Rahul
+2023-01-19 13:58:44,281 -- $(levelname)s -- MyMongo -- Creating collection : ineuron
+2023-01-19 13:58:44,281 -- $(levelname)s -- MyMongo -- Connection created with mongo db atlas
+2023-01-19 13:58:44,281 -- $(levelname)s -- MyMongo -- selecting all the document form the collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', ssl=True), 'Rahul'), 'ineuron') 
+2023-01-19 14:05:47,848 -- $(levelname)s -- MyMongo -- Creating database : Rahul
+2023-01-19 14:05:47,849 -- $(levelname)s -- MyMongo -- Creating collection : ineuron
+2023-01-19 14:05:47,849 -- $(levelname)s -- MyMongo -- Connection created with mongo db atlas
+2023-01-19 14:05:47,849 -- $(levelname)s -- MyMongo -- selecting all the document form the collection: Collection(Database(MongoClient(host=['ac-gx1hbpa-shard-00-01.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-00.10qztuf.mongodb.net:27017', 'ac-gx1hbpa-shard-00-02.10qztuf.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-13qwpw-shard-0', ssl=True), 'Rahul'), 'ineuron') 

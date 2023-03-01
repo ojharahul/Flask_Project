@@ -1,0 +1,30 @@
+2022-12-02 14:27:59,036 -- $(levelname)s -- MysqlOperation -- Creating mysql database connection
+2022-12-02 14:27:59,093 -- $(levelname)s -- MysqlOperation -- Initialized all the variables : localhost , root , pooja@2312
+2022-12-02 14:27:59,095 -- $(levelname)s -- MysqlOperation -- Executed Query: use pooja
+2022-12-02 14:27:59,095 -- $(levelname)s -- MysqlOperation -- Database : pooja in use
+2022-12-02 14:27:59,097 -- $(levelname)s -- MysqlOperation -- Executed Query : select * from glassdata
+2022-12-02 14:27:59,098 -- $(levelname)s -- MysqlOperation -- Returning data form the table: glassdata
+2022-12-03 15:22:30,775 -- $(levelname)s -- MysqlOperation -- Creating mysql database connection
+2022-12-03 15:22:30,868 -- $(levelname)s -- MysqlOperation -- Initialized all the variables : localhost , root , pooja@2312
+2022-12-03 15:22:30,872 -- $(levelname)s -- MysqlOperation -- Executed Query: use pooja
+2022-12-03 15:22:30,872 -- $(levelname)s -- MysqlOperation -- Database : pooja in use
+2022-12-03 15:22:30,900 -- $(levelname)s -- MysqlOperation -- Executed Query : select * from glassdata
+2022-12-03 15:22:30,901 -- $(levelname)s -- MysqlOperation -- Returning data form the table: glassdata
+2023-01-19 14:06:26,307 -- $(levelname)s -- MysqlOperation -- Creating mysql database connection
+2023-01-19 14:06:26,335 -- $(levelname)s -- MysqlOperation -- Initialized all the variables : localhost , root , pooja@2312
+2023-01-19 14:06:26,335 -- $(levelname)s -- MysqlOperation -- Executed Query: use pooja
+2023-01-19 14:06:26,335 -- $(levelname)s -- MysqlOperation -- Database : pooja in use
+2023-01-19 14:06:26,337 -- $(levelname)s -- MysqlOperation -- Executed Query : select * from glassdata
+2023-01-19 14:06:26,340 -- $(levelname)s -- MysqlOperation -- Returning data form the table: glassdata
+2023-01-19 14:08:28,601 -- $(levelname)s -- MysqlOperation -- Creating mysql database connection
+2023-01-19 14:08:28,623 -- $(levelname)s -- MysqlOperation -- Initialized all the variables : localhost , root , pooja@2312
+2023-01-19 14:08:28,624 -- $(levelname)s -- MysqlOperation -- Executed Query: use pooja
+2023-01-19 14:08:28,624 -- $(levelname)s -- MysqlOperation -- Database : pooja in use
+2023-01-19 14:08:28,625 -- $(levelname)s -- MysqlOperation -- Executed Query : select * from glassdata
+2023-01-19 14:08:28,629 -- $(levelname)s -- MysqlOperation -- Returning data form the table: glassdata
+2023-01-19 14:09:56,635 -- $(levelname)s -- MysqlOperation -- Creating mysql database connection
+2023-01-19 14:09:56,643 -- $(levelname)s -- MysqlOperation -- Initialized all the variables : localhost , root , pooja@2312
+2023-01-19 14:09:56,643 -- $(levelname)s -- MysqlOperation -- Executed Query: use ineuron_fsda
+2023-01-19 14:09:56,644 -- $(levelname)s -- MysqlOperation -- Database : ineuron_fsda in use
+2023-01-19 14:09:56,665 -- $(levelname)s -- MysqlOperation -- Executed Query : select * from bank_details
+2023-01-19 14:09:56,684 -- $(levelname)s -- MysqlOperation -- Returning data form the table: bank_details
